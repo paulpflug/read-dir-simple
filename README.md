@@ -12,7 +12,7 @@ npm install read-dir-simple
 
 ## Usage
 ```sh
-data = require('read-dir')('./app','utf8')
+data = require('read-dir-simple')('./app','utf8')
 
 ```
 
