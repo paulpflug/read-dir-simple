@@ -1,6 +1,6 @@
 {
-  "name": "readDir",
-  "description": "reads a single flat directory",
+  "name": "read-dir-simple",
+  "description": "reads a single flat directory synchronously",
   "version": "0.0.1",
   "homepage": "https://github.com/paulpflug/",
   "author": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/paulpflug/readDir"
+    "url": "git://github.com/paulpflug/read-dir-simple"
   },
   "engines": {
     "node": "*"

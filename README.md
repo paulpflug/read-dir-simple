@@ -1,4 +1,4 @@
-# readDir
+# read-dir-simple
 
 reads a single flat directory synchronously.
 No dependencies.
@@ -6,13 +6,13 @@ No dependencies.
 ## Install
 
 ```sh
-npm install readDir
+npm install read-dir-simple
 
 ```
 
 ## Usage
 ```sh
-data = require('readDir')('./app','utf8')
+data = require('read-dir')('./app','utf8')
 
 ```
 
