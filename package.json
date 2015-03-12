@@ -1,0 +1,37 @@
+{
+  "name": "readDir",
+  "description": "reads a single flat directory",
+  "version": "0.0.1",
+  "homepage": "https://github.com/paulpflug/",
+  "author": {
+    "name": "Paul Pflugradt",
+    "email": "paul.pflugradt@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paulpflug/readDir"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "rimraf": "^2.3.1",
+    "nodemon": "^1.3.7",
+    "coffee-script": "^1.7.1"
+  },
+  "keywords": [
+    "read",
+    "directory",
+    "dir"
+  ],
+  "readmeFilename": "README.md",
+  "scripts": {
+    "clean": "rimraf lib/ && mkdir lib",
+    "prebuild": "npm run clean",
+    "build": "coffee --compile --output lib/ src/*.coffee",
+    "watch": "nodemon -q -w src/ --ext 'coffee' --exec 'npm run build:server'"
+  }
+}
