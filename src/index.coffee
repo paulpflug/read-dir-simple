@@ -1,7 +1,7 @@
 fs = require('fs')
 path = require('path')
 
-exports = (dir, encoding) -> 
+module.exports = (dir, encoding) -> 
   result = {};
   if typeof encoding != "string" 
     encoding = null

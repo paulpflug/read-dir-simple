@@ -18,6 +18,7 @@ data = require('read-dir-simple')('./app','utf8')
 
 ## Release History
 
+ - *v0.0.2*: First Bugfix
  - *v0.0.1*: First Release
 
 ## License
